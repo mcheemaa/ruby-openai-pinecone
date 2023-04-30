@@ -14,7 +14,7 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-You can find instructions here - ruby-openai-pinecone/examples/test.rb
+You can find instructions here - `ruby-openai-pinecone/examples/test.rb`
 
 ## Development
 
