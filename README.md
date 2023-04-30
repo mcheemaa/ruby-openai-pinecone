@@ -16,6 +16,24 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 You can find instructions here - `ruby-openai-pinecone/examples/test.rb`
 
+## Obtaining API Keys and Endpoints
+
+### OpenAI API Key
+
+1. Sign up for an OpenAI account at [https://beta.openai.com/signup/](https://beta.openai.com/signup/).
+2. After signing up, go to the API Keys section in your OpenAI account: [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys).
+3. Click on "Create an API key" and follow the instructions to generate your API key.
+4. Use the generated API key for the `config.openai_api_key` in your Ruby application.
+
+### Pinecone API Key and Endpoints
+
+1. Sign up for a Pinecone account at [https://www.pinecone.io/start/](https://www.pinecone.io/start/).
+2. After signing up, go to the Dashboard.
+3. Click on "Create Namespace" and follow the instructions to create a namespace for your application.
+4. After creating a namespace, you will see your Pinecone API key, upsert endpoint, and query endpoint.
+5. Use the API key for `config.pinecone_api_key`, upsert endpoint for `config.pinecone_upsert_endpoint`, and query endpoint for `config.pinecone_query_endpoint` in your Ruby application.
+
+
 ## Example Use Case: Semantic Book Recommendation Engine
 
 Let's say we want to create a simple book recommendation engine using the Ruby OpenAI Pinecone gem. We'll start by creating vectors for a few books, then query the engine to get recommendations based on a user's interests.
